@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "antivirus-c4351",
+  "private_key_id": "55da6cc475bdabbbddd1b6bf2cdb2e39166dd9f1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDg9Pve9vWcc9xM\npc1xzJTiANMjwC6pKt9l4RgWfjP7oNLHfs6pFawzUJgmxmqw+fQnFb1U956nxPyD\nCqVf26faGe9ZQd7reDK8aQUY/8HtNL5UNdnWoE8NMLFM8hFVkzxmh9VTHldXJIU3\n7N6LJ9eZGJfGdJy/fyTxSq0Jb5g8ZhXLC7NLUBP8X1h6EaTjpyo5bGFT8cSKZDAy\nQsuRqg8J3If0WAzxon2LWSZide0yMb9UJdTDdPGGO3LNY3ZDdrRmuqFfpVrHvyMj\nzcLwYLvoHF2LGkfisF4okMKnKs/yN5P5tKYr03DJAsLzHHUWCWLjgAkgPGpKAPtG\nhYKW7mx9AgMBAAECggEASOJm5p8KBcYuFrFThm7bv/u3bOpb09h9p+MNrF/4VKsP\nD67Ao1zPvZJ7sXhw4eUiGzW6cZiG0WGL1KMy4INo90uW1kr2wEDh41R9X9Ohj8qa\nbetCqHypECN6Fm2JeznohGm3DqaScrv046E9m0Vt337t0dE/ZfX6UKk6tgdvggWP\nsOMk0Hw1rMeVbCbG75b5LPXPlg9oZ0ZhPnMYGEhdEHYNBiWZ83Ze/D06mi9aZJ84\nqfjxnDs8/H+aoxGTNednnO5dJxXX4JrWovSkXguSZYy7jpkTDtysICQxNaL4W3vg\n4nokUeDemybTNeN0qgYbO3W/YHGvV891GzFL3Pq6awKBgQD3H7QUqHMj8mNV9Eip\nwmXSvhByJDD3wC8BEFlP95R9r3O6HMaMAgeBSxf2cZbRh8MKhe/YPPiCrQX1FPuA\nI2SY4y9M5ujMCK19HF4uIzmBmNjMyJQtfdqkhQ2CLYeXTOLSmw8sltPs/saT+Vha\nAO6YWPP8n6Ze18rWs2+Wa/lLhwKBgQDpCXToh0cUmB1LkdIt0RM6jy+h6Awx+iou\nsciDlbCwAju+ThNQXza+LVwRp/2xu3kKjGZNMVbkiMwtN7Bva00o3L50Ru54vO0j\niGfzoP9Q0Udfvxw72el3uoAedcPrGXe9F2eZCXeEwRXJFAdo/cQlBhn8Kd0QzJte\nnMMYINKw2wKBgAVV6uZzSKEjD6AAeT0pFFe7gNFmFKSUwq8MMlF2r/8StbXz/xlw\nxca131uT0kTN4JkukSIjFt6Da9iBznhSy049wXywk6AsI8rKvQHUAt7YdP3e6swc\npobc1JDV+NJ8d31Cmc5Fp2e7jIAPZyfyUzR43zO6IrZzhE6kayldRXGrAoGAVn3Q\nCk3LL/WVSesBW0fyHxXt0+XQQOxco6AQj+YLAgiSK/vGZ1ovcz5aoaL8Ie826Zda\nkOPzIDc1sMKulWv542Squ3VoJR/Z1ApYqq/ikxhZqUvBKuWiJXHvA18qLCPzsRby\nuHYvCfKwJ0VryqgFGMi+9DyFdCq8r8z3DAmCqWkCgYEAh78dogZErR+OyRrRKgAr\nvjce6+ATVs5kvfB7tfe3QF7itr5IHTm3kqyJkKz9o7VBYgs9iLd3gOIy/Vxy1eYt\n0Q5zZNz8rpfFoWUGN0B8ly9xZsFVxZwEf3eZC/fghf7QVIKfs7rfGOlzAfsRE7L9\nOw7kTnMKiXTe1CtZuIFeQhA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-7qbuu@antivirus-c4351.iam.gserviceaccount.com",
+  "client_id": "115629239142081735268",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-7qbuu%40antivirus-c4351.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
