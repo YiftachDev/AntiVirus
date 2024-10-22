@@ -5,6 +5,9 @@ from firebase_admin import credentials, firestore
 PATH = "server/firebase_info.json"
 
 def init_db():
+    """
+    make neccery initiolsations for the database
+    """
     # Initialize the Firebase app with the service account key
     cred = credentials.Certificate(PATH)
     firebase_admin.initialize_app(cred)

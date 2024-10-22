@@ -12,6 +12,8 @@ def add_length_to_message(data) -> str:
     return msg
 
 
+
+
 def get_msg(my_socket):
     """
     Extract message from protocol, without the length field    
