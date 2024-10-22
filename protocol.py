@@ -14,16 +14,12 @@ def add_length_to_message(data) -> str:
 
 def get_msg(my_socket):
     """
-    Extract message from protocol, without the length field
-    If length field does not include a number, returns False, "Error"
+    Extract message from protocol, without the length field    
     """
     length = my_socket.recv(LENGTH_FIELD_SIZE).decode()
-    try:
-        length = int(length)
-    except:
-        return False, "Error"
+    length = int(length)
     msg = my_socket.recv(length).decode()
-    return True, msg
+    return msg
 
 
 def create_file_data_list(data: str):
