@@ -10,6 +10,7 @@ import protocol
 SERVER_IP = "127.0.0.1"
 SERVER_PORT = 2223
 
+
 def create_message(data):
     temp_arr = protocol.create_file_data_list(data)
     temp_arr.sort(key=lambda doc: doc.get("fileName"))
@@ -20,6 +21,14 @@ def create_message(data):
             msg += ','
     msg = protocol.add_length_to_message(msg)
     return msg
+
+
+def handle_server_response(res, client_data_arr):
+    server_res = res.split(',')
+    for i in range(len(server_res)):
+        if res[i] == "False":
+            print(f"{client_data_arr[i]["fileName"]}, hash changed")
+
 
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
