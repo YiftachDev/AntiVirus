@@ -4,15 +4,21 @@ from firebase_admin import credentials, firestore
 PATH = "server/firebase_info.json"
 
 
-# Initialize the Firebase app with the service account key
-cred = credentials.Certificate(PATH)
-firebase_admin.initialize_app(cred)
+def get_files_from_db(db):
+    """returns an array that contains a dictionary for each file in the database"""
+    files_collection = db.collection('files-hashes')
+    docs = files_collection.stream()
+    files = []
+    for doc in docs:
+        files.append(doc.to_dict())
+    return files
 
-# Initialize Firestore
-db = firestore.client()
+def main():
+    # Initialize the Firebase app with the service account key
+    cred = credentials.Certificate(PATH)
+    firebase_admin.initialize_app(cred)
 
-# getting the data from the firestore database
-hashes = db.collection('files-hashes')
-docs = hashes.stream()
-for doc in docs:
-    print(doc.to_dict())
+    # Initialize Firestore
+    db = firestore.client()
+
+    files = get_files_from_db(db)
