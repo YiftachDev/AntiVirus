@@ -11,6 +11,7 @@ def get_files_from_db(db):
     files = []
     for doc in docs:
         files.append(doc.to_dict())
+    files.sort(key=lambda doc: doc.get("fileName"))
     return files
 
 def main():
@@ -22,3 +23,6 @@ def main():
     db = firestore.client()
 
     files = get_files_from_db(db)
+    print(files)
+
+main()
